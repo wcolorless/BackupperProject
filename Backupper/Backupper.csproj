@@ -98,5 +98,11 @@
     <Folder Include="core\" />
     <Folder Include="windows\" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BackupperLib\BackupperLib.csproj">
+      <Project>{e7403ebb-b3f6-4c91-bd14-f5d10f3342f0}</Project>
+      <Name>BackupperLib</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
