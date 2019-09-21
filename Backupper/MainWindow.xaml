@@ -5,8 +5,27 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Backupper"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="500" Width="1000" ResizeMode="CanMinimize" WindowStartupLocation="CenterScreen" WindowStyle="None">
     <Grid>
-        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="25"/>
+            <RowDefinition Height="405"/>
+            <RowDefinition Height="20"/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0" Background="#FFA6DE55" MouseLeftButtonDown="Grid_MouseLeftButtonDown">
+            
+        </Grid>
+        <Grid Grid.Row="1">
+            <Menu FontFamily="Consolas" FontSize="20">
+                <MenuItem Header="Close"/>
+            </Menu>
+        </Grid>
+        <Grid Grid.Row="2">
+
+        </Grid>
+        <Grid Grid.Row="3">
+
+        </Grid>
     </Grid>
 </Window>
